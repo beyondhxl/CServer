@@ -10,7 +10,7 @@ all: $(TARGETS)
 
 whole: $(BINARIES)
 
-CServer: people.pb.h people.pb.cc TCPServer.h TCPServer.cc main.cc
+CServer: people.pb.h people.pb.cc TCPTaskCallback.h TCPTask.h TCPTask.cc TCPServer.h TCPServer.cc main.cc
 
 CClient: people.pb.h people.pb.cc client.cc
 

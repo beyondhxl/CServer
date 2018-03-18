@@ -18,6 +18,10 @@ class TCPServer
         virtual ~TCPServer();
 
     public:
+        // 启动
+        void start();
+
+    public:
         void setNonBlock(int fd);
 
         // 绑定并监听

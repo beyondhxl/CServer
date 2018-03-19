@@ -4,7 +4,7 @@
 class TCPTaskCallback
 {
     public:
-        virtual void onRead(int socketfd) {}
+        virtual void onRead(int socketfd) {};
 };
 
 #endif
